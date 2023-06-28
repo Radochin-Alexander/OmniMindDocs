@@ -1,0 +1,33 @@
+---
+sidebar_position: 4
+---
+
+# Informers
+
+**Informer** - is the entity through which the user uploads a specific type of resource. Informers can have various types depending on the format of the source data, such as text, images, tables, etc.
+They help gather information and process it for further use in the OmniMind system. Each type of Informer is responsible for its own resource.
+
+## Types of Informers
+
+**CSV Upload Informer** - Allows you to upload a file in .csv format and specify the necessary columns for processing, including metadata.
+
+**Bulk CSV Upload Informer** - Allows you to upload a file in .csv format that contains link-related information and specify the necessary columns for processing.
+
+**File Upload Informer** - Allows you to upload files of types: pdf, srt, ppt, json, rtf, doc, docx, epub, txt, html, xhtml. During the upload, you can choose the processor responsible for processing the resource and configure the Chunk Size. Chunk Size is an option that determines the division of the processed information into chunks.
+
+**Web URL Informer** - Allows you to specify an external source, a website from which information will be processed. Available settings allow you to specify the depth of processing (hierarchy of nested links on the website), limit the number of processed pages, and set the processing refresh rate (this option is only available for corporate users).
+
+**File URL Informer** - Allows you to specify an external source, a website where a file is located for further processing. Available file types: pdf, srt, ppt, json, rtf, doc, docx, epub, txt, html, xhtml.
+
+**XML Sitemap Informer** - Allows you to add an XML sitemap for analyzing a website.
+
+**YouTube Informer** - Allows you to specify a video on the YouTube platform, whose subtitles will be processed by the Processor. There is a setting to choose the subtitle language.
+
+**Text Informer** - Allows you to process added text, and there is also a metadata processing setting in the "key-value" format.
+
+**Dropbox File Informer** - Allows you to specify a link to a file located on an external source, Dropbox.
+Dropbox Folder Informer - Allows you to specify a link to a folder containing files located on an external source, Dropbox.
+
+**GDrive File Informer** - Allows you to specify a link to a file located on an external source, Google Drive.
+
+**GDrive Folder Informer** - Allows you to specify a link to a folder containing files located on an external source, Google Drive.
